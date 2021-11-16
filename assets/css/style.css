@@ -1,0 +1,235 @@
+ * {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /************** Header and menu section *****************/
+  header {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px 0px;
+    background-color: #05374e; 
+    }
+    
+.square-title-header{
+    padding: 5px 15px 5px 80px;
+    margin-left: 0px;
+    color: #ffffff;
+    background-color: rgb(101, 185, 241);
+    }
+
+h1{
+    font-size: 42px;
+}
+
+.menu-header {
+   
+    right: 0px;
+    bottom: 0px;
+    display: inline-flex;
+    padding: 5px 15px;
+    top: 45px;
+    height: 45px;
+}
+
+header a {
+  font-size: 20px;
+  color: rgb(101, 185, 241);
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.text-menu {
+  border-bottom: 3px solid rgb(101, 185, 241);
+  text-align: center;
+  padding: 5px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+/************** End header and menu section *****************/
+/************** Subtitle section *****************/
+.coolSubtitle {
+  position: relative;
+  height: 150px;
+  width: 100%;
+  background-image: url("../images/pexels-craig-adderley-1563356.png");
+  background-size: cover;
+  background-position: center;
+ }
+
+.coolSubtitle-text {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  background-color: rgb(101, 185, 241);
+  padding: 5px 5px 5px 5px;
+  font-size: 25px;
+  }
+/************** End subtitle section *****************/
+/**************  About me  Section  Class  *****************/
+
+.about-me{
+  display: flex;
+  color: #05374e;
+  padding: 25px 25px 25px 25px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.about-me-text p{
+  padding: 10px 25px 0px 25px;
+  }
+/**************  End about me  Section  Class  *****************/
+
+/**************  Work  Section  Class  *****************/
+.work{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 25px 25px 25px;
+  color: #05374e;
+  height: auto;
+}
+
+.work-me-title{
+  width: 300px;
+  font-size: 42px;
+  padding-right: 20px;
+  height: auto;
+  border-right: 5px solid #05374e;
+  text-align: right;
+  font-weight: bold;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  width:fit-content;
+  margin-left: 35px;
+  border: rgb(101, 185, 241) solid 5px;
+  }
+
+.container:hover{
+  box-shadow: inset 0px 0px 8px blue, 0 0 15px darkcyan;
+}
+  
+  /* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 16px;
+  height: 30px;
+  background-color: rgb(101, 185, 241);
+  width: 150px;
+
+}
+
+.bottom-img-left {
+  position: relative;
+  top: 30px;
+  height: 30px;
+  background-color: rgb(101, 185, 241);
+  width: 150px;
+
+}
+
+.img-text-top {
+  font-size: 15px  !important;
+}
+  
+.img-text-bottom {
+  font-size: 10px  !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left: 30px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+  margin-top: 15px;
+  width: 49%;
+  border: 5px solid rgb(101, 185, 241);
+  margin-left: 5px;
+  height: 90px;
+  background-size: cover;
+  background-image: url(../images/pexels-craig-adderley-1563356.png);
+  }
+  
+  .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  }
+  .column:hover{
+  box-shadow: inset 0px 0px 8px blue, 0 0 15px darkcyan;
+  }
+/**************  End Work  Section  Class  *****************/
+/************** Contact Class  *****************/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin: 15px;
+}
+
+li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.contact-me {
+  color: #05374e;
+  padding: 25px 25px 25px 25px;
+  height: 200px;
+  width: 100%;
+}
+
+.contact-text  {
+  text-decoration: underline;
+}
+
+.contact-me-title{
+  width: 300px;
+  font-size: 42px;
+  padding-right: 20px;
+  height: 100px;
+  border-right: 5px solid #05374e;
+  text-align: right;
+  font-weight: bold;
+}
+
+/************** End Contact Class  *****************/
+/**************   Contact  Section  Class  *****************/
+#wrapper {     
+  margin: 0px 10px;
+  width: 70%; 
+  width: 50%;
+}
+.contact-me{
+  display: flex;
+  color: #05374e;
+  padding: 25px 25px 25px 25px;
+  flex-wrap: wrap;
+  height: 250px;
+  display: inline-flex;
+}
+
+.contact-me-text{
+  display: inline-flex;
+  font-size: 20px;
+  height: inherit;
+}
+
+.contact-me-text p{
+  padding-left: 25px;
+}
+
+/**************  End Contact Section  Class  *****************/
